@@ -1,0 +1,16 @@
+@import "grid-system";
+
+.listScroll {
+  display: inline-block;
+  overflow: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+}
+
+.listScroll_item {
+  display: inline-block;
+  margin-right: -4px;
+  zoom: 1;
+}
